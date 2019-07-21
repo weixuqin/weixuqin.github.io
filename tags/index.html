@@ -1,127 +1,163 @@
+
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" >
-
-<title>标签列表 | weixuqin&#39;s blog</title>
-<meta name="description" content="As a man as you like">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://weixuqin.github.io/favicon.ico?v=1563717078660">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<html lang="zh-CN">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>weixuqin&#39;s Blog</title>	
+</style>
 <link rel="stylesheet" href="https://weixuqin.github.io/styles/main.css">
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<script type='text/javascript' src='https://weixuqin.github.io/media/scripts/script.js'></script>
+
+<style type="text/css">
+header {
+    text-align: center;
+    padding: 120px 0px 40px 0px;
+    background: #515865 center no-repeat;
+    font-size: 16px;
+    color: #fff;
+    background-size: cover;
+    background-image:url(
+			https://www.z4a.net/images/2019/07/16/wallhaven-731vl3.png
+			);
+}
+		</style>
+
+</head>
+<body class="post-template-default single single-post postid-70 single-format-standard">
+    <div id="wrapper">
+        <!-- topbar -->
+			<header id="header headerimg" class="site-header" style="background-image:url(
+			
+			https://www.z4a.net/images/2019/07/16/wallhaven-731vl3.png
+			
+			)">
+			<div class="site-branding">
+									<h1 class="site-title"><a href="https://weixuqin.github.io" rel="home">weixuqin&#39;s Blog</a></h1>
+										
+					<h2 class="site-description">As a man as you like</h2>
+										
+							</div>
+			<nav id="nav-wrapper">
+				<div class="container">
+					<div class="nav-toggle">
+						<div class="bars">
+							<div class="bar"></div>
+							<div class="bar"></div>
+							<div class="bar"></div>
+						</div>
+					</div><!-- /nav-toggle -->
+					<div class="clear"></div>
+					<ul id="" class="vtmenu">
+		 
+     			
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12">
+	 
+	<a  href="/"> 首页</a></li>
+	
+    
+     			
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12">
+	 
+	<a  href="/archives"> 归档</a></li>
+	
+    
+     			
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12">
+	 
+	<a  href="/tags"> 标签</a></li>
+	
+    
+     			
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12">
+	 
+	<a  href="https://weixuqin.github.io/post/guan-yu/"> 关于</a></li>
+	
+    
+
+</ul>
+</li>		
+		
+</ul>				</div>
+			</nav><!-- #navigation -->
+
+<div class="jingge">
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        </header><!-- #masthead -->
+
+		<div id="content" class="container">
+			<div class="row">
+	<div class="col-md-8 site-main">
+	<script type="text/javascript">
+      $(document).ready(function() {
+         var tags_a = $("#tags a");
+         tags_a.each(function(){
+             var x = 2;
+             var y = 0;
+             var rand = parseInt(Math.random() * (x - y + 1) + y);
+             $(this).addClass("tags"+rand);
+          });
+      })   
+   </script>					
+<!-- #post-## -->
+	
+	 
+
+
+		 <div class="w95" id="tags">
+			
+    </div>		 
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-
-
-  </head>
-  <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://weixuqin.github.io">
-        <img src="https://weixuqin.github.io/images/avatar.png?v=1563717078660" class="site-logo">
-        <h1 class="site-title">weixuqin&#39;s blog</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
-    </div>
-    <div>
-      
+		
+		
+			</div><!-- .site-main -->
         
-          <a href="/" class="site-nav">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="site-nav">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
-      
-        
-          <a href="https://weixuqin.github.io/post/guan-yu/" class="site-nav">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-          <a class="social-link" href="https://www.github.com/weixuqin/" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      As a man as you like
-    </div>
-    <div class="site-footer">
-      @copyright <a href="https://github.com/getgridea/gridea" target="_blank">weixuqin</a> | <a class="rss" href="https://weixuqin.github.io/atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
-</div>
 
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <h2 class="tag-list-title">标签列表</h2>
-          <div class="tags-container">
-            
-          </div>
-        </div>
-      </div>
-    </div>
+			</div><!-- #end row-->
+		</div><!-- #end container-->
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		
+		 	<footer id="colophon" class="site-footer">
 
-<script type="application/javascript">
+			<div class="container">
+	
+				<div class="copyright">@copyright <a href="https://github.com/getgridea/gridea" target="_blank">weixuqin</a><br>Theme:   <a href="https://github.com/alterfang/gridea-theme-pan" target="_blank" title="Pan"><span>Pan</span></a>. Powered by <a href="https://gridea.dev/" target="_blank" title="Gridea"><span>Gridea</span></a></div>		
+			</div><!-- .container -->
+		
+		</footer><!-- #colophon -->
 
-AOS.init();
+</div><!-- #end wrapper-->
 
-hljs.initHighlightingOnLoad()
+<script src="https://cdn.bootcss.com/fitvids/1.2.0/jquery.fitvids.min.js"></script>
+<script type='text/javascript' src='https://weixuqin.github.io/media/scripts/marlin-scripts.js'></script>
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
-</script>
-
-
-
-
-  </body>
+</body>
 </html>

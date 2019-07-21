@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://weixuqin.github.io</id>
-    <title>weixuqin&apos;s blog</title>
-    <updated>2019-07-21T13:51:22.174Z</updated>
+    <title>weixuqin&apos;s Blog</title>
+    <updated>2019-07-21T14:03:48.823Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://weixuqin.github.io"/>
     <link rel="self" href="https://weixuqin.github.io/atom.xml"/>
     <subtitle>As a man as you like</subtitle>
     <logo>https://weixuqin.github.io/images/avatar.png</logo>
     <icon>https://weixuqin.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2019, weixuqin&apos;s blog</rights>
+    <rights>All rights reserved 2019, weixuqin&apos;s Blog</rights>
     <entry>
         <title type="html"><![CDATA[月色很美]]></title>
         <id>https://weixuqin.github.io/post/yue-se-hen-mei</id>
